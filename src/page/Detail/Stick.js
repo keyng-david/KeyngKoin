@@ -26,7 +26,7 @@ class Stick {
       y: STICK.y,
       width: STICK.w,
       height: STICK.h,
-      fill: '#2E2E30',
+      fill: '#0096C7',
     })
     pillarsGroup.add(this.node)
   }
