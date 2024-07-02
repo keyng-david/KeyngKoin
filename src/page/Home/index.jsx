@@ -32,10 +32,10 @@ function Home() {
       </div>
       <div className="body">
         <Space direction='vertical' className='action'>
-          <Button onClick={goDetail}>Details</Button>
+          <Button onClick={goDetail}>PLAY</Button>
           <Button>Rank</Button>
-          <Button onClick={goProfile}>Profile</Button>
-          <Button onClick={goRules}>Rules</Button>
+          <Button onClick={goProfile}>TRADE</Button>
+          <Button onClick={goRules}>AIRDROP</Button>
         </Space>
       </div>
     </div >
