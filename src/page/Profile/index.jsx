@@ -38,7 +38,7 @@ function Profile() {
     Dialog.confirm({
       content: <div className="re_confirm_amount">
         <div className="title">Please Confirm Again</div>
-        <div className="content">You will buy <b>{values.amount}</b> Keyng Koin, total cost <b>{values.amount / 10}</b> KGK</div>
+        <div className="content">You will buy <b>{values.amount}</b> Keyng Koin, total cost <b>{values.amount / 10}</b> TON</div>
       </div>,
       onConfirm: async () => {
         await handleBuy(values)
