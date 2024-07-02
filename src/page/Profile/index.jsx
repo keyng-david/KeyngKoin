@@ -30,7 +30,7 @@ function Profile() {
   }
 
   const sellAmount = () => {
-    Toast.show({ content: "Developing..." })
+    Toast.show({ content: "Coming Soon..." })
   }
 
 
