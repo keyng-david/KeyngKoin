@@ -23,8 +23,8 @@ function Home() {
     <div className="page home_page">
       <div className='header'>
         <div className="header_l">
-          <div>最佳分数: 0</div>
-          <div>今日排名: 0</div>
+          <div>Best Score: 0</div>
+          <div>Today's Rank: 0</div>
         </div>
         <div className="header_r">
           <TonConnectButton />
@@ -33,7 +33,7 @@ function Home() {
       <div className="body">
         <Space direction='vertical' className='action'>
           <Button onClick={goDetail}>Details</Button>
-          <Button>排 行 榜</Button>
+          <Button>Rank Board</Button>
           <Button onClick={goProfile}>个Profile</Button>
           <Button onClick={goRules}>Rules</Button>
         </Space>
