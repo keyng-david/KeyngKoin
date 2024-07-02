@@ -122,7 +122,7 @@ function Detail() {
 
   const handleExit = () => {
     Dialog.confirm({
-      content: '是否退出本局游戏？',
+      content: 'Do you want to exit this game？',
       onConfirm: async () => {
         navigate("/")
       },
@@ -133,10 +133,9 @@ function Detail() {
     <div className="page detail_page">
       <div id="container"></div>
       <div className="score">
-        <div>最好记录: {score}</div>
-        <div>当前分数: {score}</div>
-        <div>今日排名: {score}</div>
-      </div>
+       <div>Best record: {score}</div>         <div>Current score: {score}</div>
+        <div>Today’s ranking:{score}</div>
+        </div>
       <div className="close" onClick={handleExit}>
         <img className="exit" src={exitIcon} />
       </div>
