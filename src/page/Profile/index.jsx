@@ -37,8 +37,8 @@ function Profile() {
   const reConfirm = (values) => {
     Dialog.confirm({
       content: <div className="re_confirm_amount">
-        <div className="title">请再次确认</div>
-        <div className="content">你将购买 <b>{values.amount}</b> 金币，共花费 <b>{values.amount / 10}</b> TON</div>
+        <div className="title">Please Confirm Again</div>
+        <div className="content">You will buy <b>{values.amount}</b> Keyng Koin, total cost <b>{values.amount / 10}</b> KGK</div>
       </div>,
       onConfirm: async () => {
         await handleBuy(values)
@@ -51,10 +51,10 @@ function Profile() {
     const { amount } = values
     try {
       await tonConnectUI.sendTransaction(createTransaction(amount))
-      Toast.show({ content: "购买完成" })
+      Toast.show({ content: "Purchase Complete" })
       setSubmitAddrVisible(false)
     } catch (error) {
-      Toast.show({ content: "购买出错，请稍后再试" })
+      Toast.show({ content: "Purchase Error，please try again later" })
     }
   }
 
@@ -63,11 +63,11 @@ function Profile() {
       <NavBar onBack={back}>个人中心</NavBar>
       <div className="body">
         <img className="verify_icon" src={defaultUser} alt="" />
-        <div className="name">姓名</div>
-        <div className="amount">金币：{10}</div>
+        <div className="name">Profile</div>
+        <div className="amount">Keyng Koin：{10}</div>
         <Space direction='vertical' className='action'>
-          <Button onClick={buyAmount}>购买金币</Button>
-          <Button onClick={sellAmount}>出售金币</Button>
+          <Button onClick={buyAmount}>Buy Keyng Koin</Button>
+          <Button onClick={sellAmount}>Sell Keyng Koin</Button>
         </Space>
       </div>
       <Popup
@@ -86,7 +86,7 @@ function Profile() {
             footer={
               <div>
                 <Button block type="submit" color="primary">
-                  确认并购买
+                  Confirm Purchase
                 </Button>
               </div>
             }>
