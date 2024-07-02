@@ -33,8 +33,8 @@ function Home() {
       <div className="body">
         <Space direction='vertical' className='action'>
           <Button onClick={goDetail}>Details</Button>
-          <Button>Rank Board</Button>
-          <Button onClick={goProfile}>个Profile</Button>
+          <Button>Rank</Button>
+          <Button onClick={goProfile}>Profile</Button>
           <Button onClick={goRules}>Rules</Button>
         </Space>
       </div>
