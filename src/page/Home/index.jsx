@@ -32,10 +32,10 @@ function Home() {
       </div>
       <div className="body">
         <Space direction='vertical' className='action'>
-          <Button onClick={goDetail}>开始游戏</Button>
+          <Button onClick={goDetail}>Details</Button>
           <Button>排 行 榜</Button>
-          <Button onClick={goProfile}>个人中心</Button>
-          <Button onClick={goRules}>规则说明</Button>
+          <Button onClick={goProfile}>个Profile</Button>
+          <Button onClick={goRules}>Rules</Button>
         </Space>
       </div>
     </div >
