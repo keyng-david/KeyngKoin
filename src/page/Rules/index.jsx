@@ -9,7 +9,7 @@ function Rules() {
 
   return (
     <div className="page rules_page">
-      <NavBar onBack={back}>规则说明</NavBar>
+      <NavBar onBack={back}>Rule Description</NavBar>
       <div className="body">
         <section>
           <h3>Game Rule</h3>
