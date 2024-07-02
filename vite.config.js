@@ -13,6 +13,6 @@ export default defineConfig({
     open: false,
     http: true,
     ssr: false,
-    historyApiFallback: true, // Add this line
+    historyApiFallback: true,
   },
 });
