@@ -7,7 +7,7 @@ const Human = class {
     y = HUMAN.y,
     width = HUMAN.w,
     height = HUMAN.h,
-    fill = '#CAF0F8'
+    fill = 'red'
   ) {
     this.node = new Konva.Rect({
       x: x,
