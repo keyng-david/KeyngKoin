@@ -90,7 +90,7 @@ function Profile() {
                 </Button>
               </div>
             }>
-            <Form.Item name='amount' label='金币数量' childElementPosition='right' initialValue={10}>
+            <Form.Item name='amount' label='Amount Of Keyng Koins' childElementPosition='right' initialValue={10}>
               <Stepper step={10} min={10} />
             </Form.Item>
           </Form>
