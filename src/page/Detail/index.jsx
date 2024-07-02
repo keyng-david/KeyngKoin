@@ -42,7 +42,7 @@ function Detail() {
       width: vw(),
       height: vh(),
     });
-    stage.container().style.backgroundColor = '#03045E';
+    stage.container().style.backgroundColor = '#F9F9F9';
     layer = new Konva.Layer();
     layer.setAttr
 
@@ -89,7 +89,7 @@ function Detail() {
       // 失败
       audioManage.playGameOver()
       Dialog.alert({
-        content: 'Game Over！',
+        content: 'Opps! You Missed',
         confirmText: "Restart",
         onConfirm: async () => {
           restart()
