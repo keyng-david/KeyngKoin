@@ -1,8 +1,8 @@
 {
   "name": "kaola",
-  "private": true,
+  "private": "true",
   "version": "0.0.0",
-   "homepage": "https://github.com/keyng-david/KeyngKoin",
+  "homepage": "https://github.com/keyng-david/KeyngKoin",
   "type": "module",
   "scripts": {
     "dev": "vite",
