@@ -18,9 +18,7 @@ function Rules() {
 <p>When the player obtains the best score, the system prompts to save the score and consumes <b>10</b> Keyng Koins. If not saved, it will not be consumed</p>
         </section>
         <section>
-          <p>The system performs this operation once a day at <b>00:00</b>
-
-After settlement, all the gold coins consumed today will be awarded to all the top players in the ranking<b>50%<b>Players</p>
+          <p>The system performs this operation once a day at <b>00:00</b>After settlement, all the Keyng Koins consumed today will be awarded to all the top players in the ranking<b>50%<b>Players</p>
          </section>
          <section>
            <h3>Reward details</h3>
