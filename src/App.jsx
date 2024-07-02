@@ -1,11 +1,10 @@
 import { useTonAddress } from '@tonconnect/ui-react';
 import { useEffect, useState } from "react";
-
 import { Route, Routes, useNavigate } from "react-router-dom";
-import Home from "./page/Home/index";
-import Login from "./page/Login/index";
-import Profile from "./page/Profile/index";
-import { Context } from "./context/index";
+import Home from "./page/Home";
+import Login from "./page/Login";
+import Profile from "./page/Profile";
+import { Context } from "./context";
 import Rules from "./page/Rules";
 import Detail from "./page/Detail";
 
@@ -21,8 +20,10 @@ function App() {
     } else {
       navigate("/")
     }
-  }, []);
-  if (tonAddress === undefined) return <></>
+  }, [tonAddress]); // Add tonAddress as a dependency
+
+  if (tonAddress === undefined) return <></>;
+
   return (
     <Context.Provider value={{ userInfo }}>
       <Routes>
