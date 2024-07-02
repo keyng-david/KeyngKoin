@@ -30,7 +30,7 @@ function Profile() {
   }
 
   const sellAmount = () => {
-    Toast.show({ content: "开发中..." })
+    Toast.show({ content: "Developing..." })
   }
 
 
@@ -60,7 +60,7 @@ function Profile() {
 
   return (
     <div className="page profile_page">
-      <NavBar onBack={back}>个人中心</NavBar>
+      <NavBar onBack={back}>Personal Centre</NavBar>
       <div className="body">
         <img className="verify_icon" src={defaultUser} alt="" />
         <div className="name">Profile</div>
