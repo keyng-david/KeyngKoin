@@ -89,8 +89,8 @@ function Detail() {
       // 失败
       audioManage.playGameOver()
       Dialog.alert({
-        content: '游戏结束！',
-        confirmText: "再玩一局",
+        content: 'Game Over！',
+        confirmText: "Restart",
         onConfirm: async () => {
           restart()
         },
