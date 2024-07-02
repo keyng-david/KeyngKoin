@@ -42,7 +42,7 @@ function Detail() {
       width: vw(),
       height: vh(),
     });
-    stage.container().style.backgroundColor = '#F7F7F7';
+    stage.container().style.backgroundColor = '#03045E';
     layer = new Konva.Layer();
     layer.setAttr
 
