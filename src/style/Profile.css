@@ -24,4 +24,13 @@
 }
 .profile_page .body button {
   width: 35vw;
+  background-color: #03045E;
+  color: #F9F9F9;
+  border: none; /* Optional: Remove default border */
+  padding: 10px 20px; /* Optional: Adjust padding as needed */
+  font-size: 16px; /* Optional: Adjust font size as needed */
+  cursor: pointer; /* Optional: Change cursor to pointer */
+}
+.profile_page .body button:hover {
+  background-color: #02034A; /* Optional: Slightly darker shade on hover */
 }
