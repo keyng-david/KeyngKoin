@@ -8,7 +8,7 @@ class Stick {
     y = STICK.y,
     width = STICK.w,
     height = STICK.h,
-    fill = '#2E2E30'
+    fill = '#03045E'
   ) {
     this.stretching = false
     this.node = new Konva.Rect({
@@ -26,7 +26,7 @@ class Stick {
       y: STICK.y,
       width: STICK.w,
       height: STICK.h,
-      fill: '#0096C7',
+      fill: '#03045E',
     })
     pillarsGroup.add(this.node)
   }
