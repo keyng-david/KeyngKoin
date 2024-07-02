@@ -31,7 +31,7 @@ export function randomCreatePillars(n) {
 
 export function copyTxt(str) {
   navigator.clipboard.writeText(str)
-  Toast.show({ content: '已复制' })
+  Toast.show({ content: 'Copied' })
 }
 
 export function hideStr(str, startLen, endLen) {
