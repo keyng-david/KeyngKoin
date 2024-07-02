@@ -21,7 +21,7 @@ const PillarsGroup = class {
         y: vh() - PILLAR.h,
         width: item.radius * 2,
         height: PILLAR.h,
-        fill: '#0096C7',
+        fill: '#03045E',
       })
       if (i === 1) {
         const center = new Konva.Rect({
