@@ -6,7 +6,7 @@ import Login from "./page/Login/index.jsx"; // Explicit extension for clarity
 import Profile from "./page/Profile/index.jsx"; // Explicit extension for clarity
 import Rules from "./page/Rules/index.jsx"; // Explicit extension for clarity
 import Detail from "./page/Detail/index.jsx"; // Explicit extension for clarity
-import { Context } from "./context/index.jsx"; // Ensure this is correct
+import { Context } from "./context/index.js"; // Ensure this is correct
 
 function App() {
   const navigate = useNavigate();
